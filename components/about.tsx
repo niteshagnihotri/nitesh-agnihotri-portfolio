@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <div className="min-h-screen space-y-10 pb-10 " id="about">
-      <h1 className="text-center text-2xl md:py-16 sm:text-3xl uppercase">
+    <div className="md:min-h-screen space-y-10 py-20 sm:pb-20 sm:py-0" id="about">
+      <h1 className="text-center text-2xl md:py-16 font-semibold text-gray-700 sm:text-3xl uppercase">
         ABOUT ME
       </h1>
       <motion.div

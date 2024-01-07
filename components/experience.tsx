@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function ExperienceSection() {
   return (
     <div className="md:min-h-[70vh] space-y-12 md:space-y-0 pb-10">
-      <h1 className="text-center text-2xl md:py-16 sm:text-3xl uppercase">WORK EXPERIENCE</h1>
+      <h1 className="text-center text-2xl font-semibold text-gray-700 md:py-16 sm:text-3xl uppercase">WORK EXPERIENCE</h1>
       <div className="grid gap-y-10 md:grid-cols-2 grid-rows-2 md:w-10/12 lg:w-9/12 mx-auto px-5 sm:px-0">
         <motion.div
           initial={{ y: 10, opacity: 0 }}

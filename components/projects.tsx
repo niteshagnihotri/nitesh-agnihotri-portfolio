@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ProjectsSection() {
   return (
     <div className="md:min-h-screen space-y-12 md:space-y-0 pb-10">
-      <h1 className="text-center text-2xl md:py-16 sm:text-3xl uppercase">Personal Projects</h1>
+      <h1 className="text-center text-2xl md:py-16 sm:text-3xl  font-semibold text-gray-700 uppercase">Personal Projects</h1>
       <div className=" lg:w-10/12 xl:w-10/12 px-10 mx-auto grid gap-16">
         <ProjectCard
           title="ChefCraft"
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
       <div className="text-center flex items-center justify-center py-16">
 {/* <span>Github</span> */}
       <Link href={"https://github.com/niteshagnihotri"}>
-            <BsGithub className="transition text-2xl sm:text-4xl ease-in delay-100 cursor-pointer text-[#496685] hover:text-gray-700" />
+            <BsGithub className="transition text-4xl ease-in delay-100 cursor-pointer text-[#496685] hover:text-gray-700" />
           </Link>
       </div>
     </div>

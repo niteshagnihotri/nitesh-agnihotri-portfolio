@@ -8,7 +8,7 @@ import { FiMail } from "react-icons/fi";
 export default function ContactForm() {
   return (
     <div className="pb-20 flex flex-col text-center space-y-10 sm:space-y-0">
-      <h1 className="text-center text-2xl flex gap-10 justify-center md:py-16 sm:text-3xl uppercase">
+      <h1 className="text-center text-2xl font-semibold text-gray-700 flex gap-10 justify-center md:py-16 sm:text-3xl uppercase">
         Feel Free to Connect
       </h1>
       <div>

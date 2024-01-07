@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function IntroSection() {
   return (
-    <div className="w-full min-h-screen relative text-gray-700 flex items-center justify-center text-center sm:px-8 bg-diagonal sm:bg-top bg-fixed lg:bg-cover">
+    <div className="w-full min-h-[90vh] md:min-h-screen relative text-gray-700 flex items-center justify-center text-center sm:px-8 bg-diagonal sm:bg-top bg-fixed lg:bg-cover">
       <div className="space-y-16 xs:space-y-20 sm:space-y-14 text-[2rem] xs:text-4xl sm:text-5xl lg:text-6xl flex flex-col flex-wrap px-3">
         <div className="flex items-center gap-4 gap-y-8 xs:gap-4 xs:gap-y-8 sm:gap-4 flex-wrap">
           <span>Hi, I am </span>
@@ -28,7 +28,7 @@ export default function IntroSection() {
           </Link>
         </div>
       </div>
-      <Link href={"/#about"} className="absolute bottom-14 sm:bottom-10 animate-bounce text-gray-700 text-3xl sm:text-4xl cursor-pointer hover:text-[#496685]" >
+      <Link href={"/#about"} className="absolute bottom-14 sm:bottom-10 animate-bounce text-gray-700 text-4xl cursor-pointer hover:text-[#496685]" >
         <BsArrowBarUp />
       </Link>
     </div>

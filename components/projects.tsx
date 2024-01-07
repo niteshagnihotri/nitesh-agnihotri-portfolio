@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function ProjectsSection() {
   return (
-    <div className="md:min-h-screen space-y-12 md:space-y-0 pb-10">
+    <div className="md:min-h-screen space-y-12 md:space-y-0 py-20 sm:py-0 pb-10">
       <h1 className="text-center text-2xl md:py-16 sm:text-3xl  font-semibold text-gray-700 uppercase">Personal Projects</h1>
       <div className=" lg:w-10/12 xl:w-10/12 px-10 mx-auto grid gap-16">
         <ProjectCard

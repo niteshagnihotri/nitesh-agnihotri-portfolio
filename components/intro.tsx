@@ -12,13 +12,7 @@ export default function IntroSection() {
           <span className="text-gray-700 font-semibold">Nitesh Agnihotri</span>
         </div>
 
-        <TextAnimation
-          texts={[
-            "Full Stack Developer",
-            "Frontend Developer",
-            "Blockchain Developer",
-          ]}
-        />
+        <TextAnimation texts={["Full Stack Developer", "Frontend Developer"]} />
         <div className="flex justify-start space-x-8 sm:space-x-16 sm:mx-1">
           <Link href={"https://www.linkedin.com/in/niteshagnihotri/"}>
             <FaLinkedinIn className="transition text-4xl ease-in delay-100 cursor-pointer text-gray-600 hover:text-[#496685]" />
@@ -28,9 +22,17 @@ export default function IntroSection() {
           </Link>
         </div>
       </div>
-      <Link  href={"/#about"} className="absolute bottom-14 sm:bottom-10 animate-bounce text-gray-700 text-4xl cursor-pointer hover:text-[#496685]" >
+      <div
+        onClick={() => {
+          const aboutSection = document.getElementById("about");
+          if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+        className="absolute bottom-14 sm:bottom-10 animate-bounce text-gray-700 text-4xl cursor-pointer hover:text-[#496685]"
+      >
         <BsArrowBarUp />
-      </Link>
+      </div>
     </div>
   );
 }
